@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<style>
+form {
+    margin: auto;
+    width: 35%;
+}
+body {
+  background-image: url('/static/als.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.result {
+    margin: auto;
+    width: 35%;
+    border: 1px solid #ccc;
+}
+</style>
+<head>
+    <title>ALS Symptoms</title>
+</head>
+
+
+<!--<body style="background-color:powderblue;">
+
+      <div class="bd-example" align="middle"> 
+      <img src="{{url_for('static', filename='als.jpg')}}" align="middle" />
+      </div>
+</body>-->
+
+<form action="{{ url_for('main') }}" method="POST">
+    <fieldset>
+        <legend>Input values:</legend>
+        Symptom1:
+        <input name="symptom1" type="text" required>
+        <br>
+        <br> Symptom2:
+        <input name="symptom2" type="text" required>
+        <br>
+        <br> Symptom3:
+        <input name="symptom3" type="text" required>
+        <br>
+        <br>
+        <input type="submit">
+    </fieldset>
+</form>
+<br>
+<div class="result" align="center" style="background-color:powderblue;">
+    {% if result %}
+        {% for variable, value in original_input.items() %}
+            <b>{{ variable }}</b> : {{ value }}
+        {% endfor %}
+        <br>
+        <br> Patients like you have faced the following kind of symptoms:
+           <p style="font-size:50px">{{ result }}</p>
+    {% endif %}
+    {% if result == "Mental Health related issues" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts1.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Neurological/ vision and sleep related issues" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts2.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Joint pain(arthritis)" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts3.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Sensitivity issues" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts4.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Body pain" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts5.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Sleep related problems" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts6.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Chest pain/hernia/ urination problems" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts7.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Spasticity/ digestive issues" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts8.png')}}" align="middle" />
+          </div>
+    {% endif %}
+    {% if result == "Sore throat/ abdominal problems" %}
+          <div class="bd-example" align="middle">
+          <img src="{{url_for('static', filename='tts9.png')}}" align="middle" />
+          </div>
+    {% endif %}
+
+</div>
+<!--<body>
+	<div align="center">
+              <p>Click the button to see the trajectory of the average ALS Score of patients like you</p>
+
+              <button onclick="myFunction()">Try it</button>
+
+              <script>
+                      function myFunction() {
+                      var x = document.createElement("IMG");
+		      if 
+                      x.setAttribute("src", "/static/tts1.png");
+                      x.setAttribute("width", "304");
+                      x.setAttribute("height", "228");
+                      x.setAttribute("alt", "Sorry! Insufficient data");
+                      document.body.appendChild(x);
+                      }
+             </script>
+	</div>
+
+</body>-->
+</html>
