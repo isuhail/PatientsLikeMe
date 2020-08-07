@@ -1,6 +1,6 @@
 ,Word 0,Word 1,Word 2,Word 3,Word 4,Word 5,Word 6,Word 7,Word 8,Word 9,Word 10,Word 11,Word 12,Word 13,Word 14,Topics
 Topic 0,self,thought,difficulty,lack,feeling,motivation,suicidal,social,urge,avoidance,anxiety,stress,think,irritability,loneliness,Mental Health related issues
-Topic 1,muscle,weakness,hand,loss,difficulty,arm,foot,tremor,cramp,leg,atrophy,left,right,problem,speech,Body pain
+Topic 1,muscle,weakness,hand,loss,difficulty,arm,foot,tremor,cramp,leg,atrophy,left,right,problem,speech,Body part/muscle pain
 Topic 2,idea,flight,thinking,excitability,grandiose,irritability,hallucination,paranoia,headache,light,speech,slow,sensitivity,bradyarthria,migraine,Headache/Speech issues
 Topic 3,problem,mood,excessive,spasticity,emotional,bladder,sleepiness,lability,bowel,constipation,fog,swing,brain,daytime,excess,Spasticity/ digestive issues
 Topic 4,low,chest,spasm,fever,extremity,surgery,reaction,transplant,congestion,urine,kidney,disk,rejection,herniate,gallbladder,Chest pain/hernia/ urination problems
@@ -13,4 +13,4 @@ Topic 10,attack,loss,fear,panic,anxiety,hair,weight,gain,lethargy,increase,depre
 Topic 11,infection,symptom,related,mouth,inflammation,peripheral,rash,loss,stomach,shingle,arthritis,neurological,tissue,fatty,lipoatrophy,Infections/ excessive fat issues
 Topic 12,sore,painful,gland,throat,node,lymph,sleep,pain,exhaustion,poor,abdominal,unrefreshing,muscle,joint,bloat,Sore throat/ abdominal problems
 Topic 13,difficulty,asleep,joint,flashback,easily,motion,nightmare,range,crackle,limited,crepitus,stay,jumpiness,startling,startle,Sleep related problems
-Topic 14,pain,leg,joint,foot,neck,shoulder,swell,stiffness,hand,hip,ankle,restless,problem,irritability,arthritis,Joint pain(arthritis)
+Topic 14,pain,leg,joint,foot,neck,shoulder,swell,stiffness,hand,hip,ankle,restless,problem,irritability,arthritis,Joint/neck pain
