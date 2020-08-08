@@ -4,7 +4,7 @@ The details of the analysis can be seen in the jupyter notebook PLM.ipynb.
 All the files required for the web-application can be found in this repository. The list of dependencies for the webapp are in requirements.txt.
 The web-application is hosted on a Digital-Ocean droplet.
 
-## Link to the webapplication: http://167.71.144.110/
+## Link to the web-application: http://167.71.144.110/
 
 ## Project Overview
 
