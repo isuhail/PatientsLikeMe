@@ -1,15 +1,16 @@
-aniso8601==6.0.0
-attrs==19.1.0
-Click==7.0
-itsdangerous==1.1.0
-Jinja2==2.10.1
-jsonschema==3.0.1
-MarkupSafe==1.1.1
-numpy==1.16.2
-pandas==1.1.0
-pyrsistent==0.14.11
-pytz==2019.1
-scikit-learn==0.20.3
-scipy==1.2.1
-sklearn==0.0
-Werkzeug==0.15.2
+
+To setup the environment make sure you install Python3 on your system.
+
+You can use this link: https://realpython.com/installing-python/
+
+Once you have python up you can install the dependencies using the following commands:
+
+sudo apt install python-pip3
+pip3 install flask
+pip3 install gensim
+pip3 install spacy==2.2.0
+pip3 install sklearn
+pip3 install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
+pip3 install pandas
+
+NOTE: The given commands are for ubuntu. The commands may change depending on the OS.  Please ensure that you have the above packages installed.
