@@ -21,9 +21,9 @@ The data about the ALS patients is distributed among four datasets. These datase
 
 ## Usage
 
-The web application consists of a webpage where the user is required to enter three symptoms he/she has faced. If a user has faced less than three symptoms then the same symptom can be entered twice or thrice.
+The web application consists of a webpage where the user can enter upto three symptoms he/she has faced.
 
-Upon clicking submit, the web application will display the name of the group of symptoms, the patients like the user have faced with maximum probability. It will also display the trend of the variation of the average ALS Score within the population for these group of users.
+Upon clicking submit, the web application will display the name of the group of symptoms, the patients like the user have faced. The group is decided based on the probability of a user belonging to every group. It will also display the trend of the variation of the average ALS Score within the population for these group of users.
 
 NOTE: The data for ALS Scores for six groups is not available. In such a case only the group name will be displayed.
 
