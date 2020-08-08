@@ -8,7 +8,7 @@ The web-application is hosted on a Digital-Ocean droplet.
 
 ## Project Overview
 
-This projects aims at providing a web-application to ALS patients where they could enter the symptoms they faced to understand the trend of the average variation of the als scores of the patients who faced similar kind of symptoms. Advanced statistical modelling and natural language processing techniques have been used to group similar patients.   
+This project aims at providing a web-application to ALS patients where they could enter the symptoms they faced to understand the trend of the average variation of the ALS scores of the patients who faced similar kinds of symptoms. Advanced statistical modeling and natural language processing techniques have been used to group similar patients.   
 
 ## Data
 
