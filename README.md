@@ -6,6 +6,8 @@ The web-application is hosted on a Digital-Ocean droplet.
 
 ## Link to the web-application: http://167.71.144.110/
 
+![](als1.png width=100)
+
 ## Project Overview
 
 This project aims at providing a web-application to ALS patients where they could enter the symptoms they faced to understand the trend of the average variation of the ALS scores of the patients who faced similar kinds of symptoms. Advanced statistical modeling and natural language processing techniques have been used to group similar patients.   
