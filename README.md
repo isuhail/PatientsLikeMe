@@ -6,7 +6,7 @@ The web-application is hosted on a Digital-Ocean droplet.
 
 ## Link to the web-application: http://167.71.144.110/
 
-![](als1.png width=100)
+![](https://github.com/isuhail/PatientsLikeMe/blob/master/als1.PNG width=100)
 
 ## Project Overview
 
